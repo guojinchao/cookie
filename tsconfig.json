@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "target": "es3",
+    "moduleResolution": "node",
+    "lib": ["es2015", "dom", "es2015.iterable"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["nodes_modules"]
+}
